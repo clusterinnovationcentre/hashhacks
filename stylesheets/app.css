@@ -397,7 +397,7 @@ a {
 .brand:after {
   color: #252C37;
   text-shadow: 1px -1px 0 #D0D6E0, -1px -1px 0 #D0D6E0, -1px 1px 0 #D0D6E0, 1px 1px 0 #D0D6E0;
-  content: ' 3.0'; }
+  content: ' 4.0'; }
 
 .spinner {
   display: block;
