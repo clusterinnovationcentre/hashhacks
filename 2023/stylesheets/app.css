@@ -82,7 +82,7 @@ button, .button {
       color: #252C37;
       background-image: url("../assets/images/hex-button-border-disabled@2x.png"); }
   button.round, .button.round {
-    min-width: 180px;
+    min-width: 250px;
     min-height: 42px;
     padding-left: 50px;
     border: 1px solid #F8B1B1;
@@ -397,7 +397,7 @@ a {
 .brand:after {
   color: #252C37;
   text-shadow: 1px -1px 0 #D0D6E0, -1px -1px 0 #D0D6E0, -1px 1px 0 #D0D6E0, 1px 1px 0 #D0D6E0;
-  content: ' 4.0'; }
+  content: ' 5.0'; }
 
 .spinner {
   display: block;
