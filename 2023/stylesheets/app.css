@@ -41,8 +41,11 @@ i {
   i.facebook {
     background-image: url("../assets/images/icons/Facebook Icon@2x.png"); }
   i.convoke {
-    background-image: url("../assets/images/icons/Convoke Icon@512.png"); }
-
+    background-image: url("../assets/images/icons/ConvokeIconWhite.png"); }
+  i.instagram {
+      background-image: url("../assets/images/icons/Instagram Icon@2x.png"); }
+  i.linkedin {
+      background-image: url("../assets/images/icons/LinkedinIcon.png"); }
 .social {
   margin-left: -4px; }
 
