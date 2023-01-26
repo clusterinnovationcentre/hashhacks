@@ -590,17 +590,41 @@ body.section-expanded .controls {
   /*-webkit-filter: brightness(0) invert(1);
   filter: brightness(0) invert(1);*/
   transition: .25s; }
+  #sponsors-section .logo.title, #sponsors-section .logo.custom {
+    width: 180px;
+    height: 180px;
+    background-color: #fff;
+    outline:10px solid #00cffd;
+    margin: 10px;
+  }
   #sponsors-section .logo.platinum, #sponsors-section .logo.custom {
     width: 145px;
     height: 145px;
-    background-color: #fff;  }
+    background-color: #fff;  
+    outline:10px solid #b9f2ff; 
+    margin: 10px;
+  }
   #sponsors-section .logo.gold {
     width: 125px;
-    height: 125px; }
+    height: 125px; 
+    background-color: #fff;  
+    outline:10px solid #E18908; 
+    margin: 10px;
+  }
   #sponsors-section .logo.silver {
     width: 110px;
-    height: 110px; }
-  #sponsors-section .logo.bronze {
+    height: 110px; 
+    background-color: #fff;  
+    outline:10px solid #C0C0C0; 
+    margin: 10px;
+  }
+    #sponsors-section .logo.partner {
+      width: 100px;
+      height: 100px; 
+      background-color: #fff;  
+      margin: 10px;
+    }
+    #sponsors-section .logo.bronze {
     width: 90px;
     height: 90px; }
 #sponsors-section .logo:hover {
