@@ -664,19 +664,10 @@ body.section-expanded .controls {
     width: 200%;
     left: -50%; } }
 
-@media (max-width: 768px){
-  body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow: hidden;
-  }
-  #fs-video {
-      width: 105%;
-      height: auto;
-      margin-left: 50%;
-  } 
-}
+@media (max-width: 768px) {
+  #fs-container, #fs-video {
+    display: none; } }
+
 .fire-container {
   position: absolute;
   width: 100%;
