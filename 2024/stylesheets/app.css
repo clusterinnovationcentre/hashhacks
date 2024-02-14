@@ -199,7 +199,7 @@ footer {
     background-image: url(../assets/images/border-bottom-left@2x.png); }
     footer .left:after {
       padding-left: 20px;
-      content: 'HACK TO THE FUTURE';
+      /* content: 'HACK TO THE FUTURE'; */
       font-size: 14px;
       letter-spacing: .05em; }
   footer .right {
@@ -663,9 +663,20 @@ body.section-expanded .controls {
   #fs-video {
     width: 200%;
     left: -50%; } }
-@media (max-width: 768px) {
-  #fs-container, #fs-video {
-    display: none; } }
+
+@media (max-width: 768px){
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+  #fs-video {
+      width: 105%;
+      height: auto;
+      margin-left: 50%;
+  } 
+}
 .fire-container {
   position: absolute;
   width: 100%;
