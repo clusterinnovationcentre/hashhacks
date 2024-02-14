@@ -11,7 +11,8 @@ $(document).ready(function() {
     $spinner = $("#spinner");
 
 	// first visit and not mobile
-	if (width >= 0) {
+	// if (width >= 0) {
+    if (width >= 768) {
         // https://stackoverflow.com/questions/21159301/quotaexceedederror-dom-exception-22-an-attempt-was-made-to-add-something-to-st
         // Safari, in Private Browsing Mode, looks like it supports localStorage but all calls to setItem throw QuotaExceededError.
         // try {
