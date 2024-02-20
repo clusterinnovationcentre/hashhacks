@@ -655,28 +655,6 @@ body.section-expanded .controls {
   visibility: hidden;
   opacity: 0; }
 
-  .registration-container {
-    display: inline-block;
-}
-
-.registration-link {
-    display: inline-block;
-    padding: 15px 25px; 
-    margin: -2px;
-    border: 2px solid #5064f8;
-    border-radius: 5px;
-    text-decoration: none;
-    color: #5064f8;
-    font-weight:bolder;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.registration-container:hover .registration-link {
-    background-color: #0527e9;
-    color: #fff;
-}
-
-
 
 @media (min-aspect-ratio: 16 / 9) {
   #fs-video {
